@@ -1,0 +1,143 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.top-bar .btn {
+  width: 10rem;
+  margin: 0;
+}
+
+.top-bar .top-bar-logo {
+  width: auto;
+}
+
+.top-bar .top-bar-logo a {
+  text-decoration: none;
+}
+
+.top-bar .top-bar-logo .logo-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--base-100);
+  transition: color 0.3s ease-out;
+}
+
+.top-bar .top-bar-logo .logo-text:hover {
+  color: var(--base-200);
+}
+
+.top-bar .top-bar-logo .logo-image {
+  height: 3rem;
+  width: auto;
+  transition: opacity 0.3s ease-out;
+}
+
+.top-bar .top-bar-logo .logo-image:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1000px) {
+  .top-bar {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .top-bar .top-bar-logo .logo-image {
+    height: 2.5rem;
+  }
+
+  .top-bar .btn {
+    width: 8.5rem;
+    padding: 0.125rem;
+  }
+
+  .top-bar .btn .circle {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .top-bar .btn .icon {
+    font-size: 1.2rem;
+    top: 0.65rem;
+    left: 0.8rem;
+  }
+
+  .top-bar .btn .button-text {
+    font-size: 0.8rem;
+    margin: 0 0 0 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-bar {
+    padding: 0.5rem 1rem;
+  }
+
+  .top-bar .top-bar-logo .logo-image {
+    height: 2rem;
+  }
+
+  .top-bar .btn {
+    width: 7.5rem;
+    padding: 0.1rem;
+  }
+
+  .top-bar .btn .circle {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .top-bar .btn .icon {
+    font-size: 1.1rem;
+    top: 0.575rem;
+    left: 0.7rem;
+  }
+
+  .top-bar .btn .button-text {
+    font-size: 0.7rem;
+    margin: 0 0 0 0.9rem;
+  }
+
+  .top-bar .btn:hover .icon {
+    transform: translate(0.5rem);
+  }
+}
+
+@media (max-width: 400px) {
+  .top-bar {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .top-bar .top-bar-logo .logo-image {
+    height: 1.75rem;
+  }
+
+  .top-bar .btn {
+    width: 6.5rem;
+    padding: 0.1rem;
+  }
+
+  .top-bar .btn .circle {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .top-bar .btn .icon {
+    font-size: 1rem;
+    top: 0.5rem;
+    left: 0.6rem;
+  }
+
+  .top-bar .btn .button-text {
+    font-size: 0.65rem;
+    margin: 0 0 0 0.8rem;
+  }
+}

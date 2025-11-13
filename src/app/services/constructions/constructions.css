@@ -1,0 +1,240 @@
+.service-detail-hero {
+  position: relative;
+  width: 100vw;
+  min-height: 80svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--base-500) 0%, var(--base-450) 100%);
+  color: var(--base-100);
+  overflow: hidden;
+}
+
+.service-detail-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    circle at 30% 50%,
+    rgba(128, 119, 108, 0.15) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+.service-detail-hero-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 4rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-detail-breadcrumb {
+  color: var(--base-300);
+}
+
+.service-detail-header {
+  width: 85%;
+}
+
+.service-detail-tagline {
+  width: 70%;
+  color: var(--base-250);
+}
+
+.service-detail-content {
+  position: relative;
+  width: 100vw;
+  padding: 8rem 0;
+  background-color: var(--base-500);
+  color: var(--base-100);
+}
+
+.service-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.service-detail-col h2 {
+  margin-bottom: 1.5rem;
+  color: var(--base-100);
+}
+
+.service-detail-col p {
+  color: var(--base-300);
+}
+
+.service-features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.service-feature {
+  padding: 2rem;
+  background-color: rgba(242, 237, 230, 0.03);
+  border: 1px solid var(--base-400);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.service-feature:hover {
+  background-color: rgba(242, 237, 230, 0.05);
+  border-color: var(--base-350);
+  transform: translateX(8px);
+}
+
+.service-feature h3 {
+  color: var(--base-100);
+  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+}
+
+.service-feature p {
+  color: var(--base-300);
+  line-height: 1.6;
+}
+
+.service-detail-image-section {
+  position: relative;
+  width: 100vw;
+  padding: 4rem 0;
+  background-color: var(--base-450);
+}
+
+.service-detail-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.service-detail-img {
+  position: relative;
+  aspect-ratio: 16/10;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: var(--base-400);
+}
+
+.service-detail-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-detail-process {
+  position: relative;
+  width: 100vw;
+  padding: 8rem 0;
+  background-color: var(--base-500);
+  color: var(--base-100);
+}
+
+.service-detail-process-header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.service-detail-process-header h2 {
+  color: var(--base-100);
+}
+
+.service-process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.process-step {
+  padding: 2rem;
+  background-color: rgba(242, 237, 230, 0.02);
+  border: 1px solid var(--base-400);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.process-step:hover {
+  background-color: rgba(242, 237, 230, 0.05);
+  border-color: var(--base-350);
+  transform: translateY(-8px);
+}
+
+.process-number {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--base-350);
+  margin-bottom: 1rem;
+  font-family: "DM Mono", monospace;
+}
+
+.process-step h3 {
+  color: var(--base-100);
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.process-step p {
+  color: var(--base-300);
+  line-height: 1.6;
+}
+
+.service-cta-section {
+  position: relative;
+  width: 100vw;
+  padding: 6rem 0;
+  background: linear-gradient(135deg, var(--base-450) 0%, var(--base-500) 100%);
+  color: var(--base-100);
+}
+
+.service-cta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.service-cta-content h2 {
+  color: var(--base-100);
+}
+
+.service-cta-content p {
+  color: var(--base-250);
+}
+
+@media (max-width: 1000px) {
+  .service-detail-header,
+  .service-detail-tagline {
+    width: 100%;
+  }
+
+  .service-detail-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .service-detail-images {
+    grid-template-columns: 1fr;
+  }
+
+  .service-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-detail-content,
+  .service-detail-process {
+    padding: 4rem 0;
+  }
+}
