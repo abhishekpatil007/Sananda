@@ -18,7 +18,7 @@ const page = () => {
             <div className="studio-hero-col">
               <Copy delay={0.85}>
                 <p>
-                  Since 2010, SANADA Enterprises has been at the forefront of luxury interior design and construction, transforming visions into reality with unmatched precision and creativity.
+                  Since 2010, SANANDA HOUSING PRIVATE LIMITED has been at the forefront of luxury interior design and construction, transforming visions into reality with unmatched precision and creativity.
                 </p>
               </Copy>
             </div>

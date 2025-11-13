@@ -3,7 +3,7 @@ import ClientLayout from "@/client-layout";
 import TopBar from "@/components/TopBar/TopBar";
 
 export const metadata = {
-  title: "SANADA Enterprises | Construction & Interior Design",
+  title: "SANANDA HOUSING PRIVATE LIMITED | Construction & Interior Design",
   description: "Leading construction and interior design company in Bangalore. Specializing in residential villas, commercial spaces, custom furniture, and office interiors since 2010.",
 };
 

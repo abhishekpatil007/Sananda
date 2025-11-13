@@ -117,7 +117,7 @@ const page = () => {
               <div className="contact-img">
                 <img
                   src="/contact/contact-img.jpg"
-                  alt="SANADA Enterprises office"
+                  alt="SANANDA HOUSING PRIVATE LIMITED office"
                 />
               </div>
             </div>

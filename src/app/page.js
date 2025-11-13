@@ -139,11 +139,11 @@ export default function Home() {
           <div className="intro-logo">
             <div className="word" id="word-1">
               <h1>
-                <span>SANADA</span>
+                <span>SANANDA</span>
               </h1>
             </div>
             <div className="word" id="word-2">
-              <h1>Enterprise</h1>
+              <h1>HOUSING</h1>
             </div>
           </div>
           <div className="divider"></div>
@@ -165,7 +165,7 @@ export default function Home() {
             <div className="hero-tagline">
               <Copy animateOnScroll={false} delay={1}>
                 <p>
-                  Since 2010, SANADA Enterprises has been transforming visions into reality through expert construction, innovative interior design, and custom furniture solutions that define modern living.
+                  Since 2010, SANANDA HOUSING PRIVATE LIMITED has been transforming visions into reality through expert construction, innovative interior design, and custom furniture solutions that define modern living.
                 </p>
               </Copy>
             </div>
@@ -240,7 +240,7 @@ export default function Home() {
             <Copy delay={0.1}>
               <h1>
                 <span className="spacer">&nbsp;</span>
-                At SANADA Enterprises, we bring technical expertise and innovative design concepts together to create spaces that are perfectly tailored to your unique lifestyle and vision.
+                At SANANDA HOUSING PRIVATE LIMITED, we bring technical expertise and innovative design concepts together to create spaces that are perfectly tailored to your unique lifestyle and vision.
               </h1>
             </Copy>
           </div>
@@ -335,7 +335,7 @@ export default function Home() {
       </section>
       <CTAWindow
         img="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&auto=format&fit=crop&q=80"
-        header="SANADA Enterprises"
+        header="SANANDA HOUSING PRIVATE LIMITED"
         callout="Your Vision, Our Expertise"
         description="From initial consultation to final execution, we bring professionalism, precision, and passion to every project. Let's build something extraordinary together."
       />

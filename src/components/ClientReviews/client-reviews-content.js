@@ -6,7 +6,7 @@ const clientReviewsContent = [
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
     avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&auto=format&fit=crop&q=80",
     review:
-      "SANADA Enterprises transformed our vision into reality with exceptional professionalism. The attention to detail in both construction and interior design exceeded our expectations. Highly recommended!",
+      "SANANDA HOUSING PRIVATE LIMITED transformed our vision into reality with exceptional professionalism. The attention to detail in both construction and interior design exceeded our expectations. Highly recommended!",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const clientReviewsContent = [
     image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&auto=format&fit=crop&q=80",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&auto=format&fit=crop&q=80",
     review:
-      "We hired SANADA Enterprises for our office interior setup and couldn't be happier. They delivered on time, within budget, and created a workspace that boosts our team's productivity. Excellent service!",
+      "We hired SANANDA HOUSING PRIVATE LIMITED for our office interior setup and couldn't be happier. They delivered on time, within budget, and created a workspace that boosts our team's productivity. Excellent service!",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const clientReviewsContent = [
     image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&auto=format&fit=crop&q=80",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
     review:
-      "SANADA Enterprises brought our dream home to life with impeccable craftsmanship and innovative design solutions. The custom furniture they created perfectly complements the overall aesthetic. Five stars!",
+      "SANANDA HOUSING PRIVATE LIMITED brought our dream home to life with impeccable craftsmanship and innovative design solutions. The custom furniture they created perfectly complements the overall aesthetic. Five stars!",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const clientReviewsContent = [
     image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&auto=format&fit=crop&q=80",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80",
     review:
-      "Renovating our home was a big decision, and SANADA Enterprises made it effortless. Their team was responsive, creative, and delivered stunning results. Our home feels brand new and luxurious!",
+      "Renovating our home was a big decision, and SANANDA HOUSING PRIVATE LIMITED made it effortless. Their team was responsive, creative, and delivered stunning results. Our home feels brand new and luxurious!",
   },
 ];
 
