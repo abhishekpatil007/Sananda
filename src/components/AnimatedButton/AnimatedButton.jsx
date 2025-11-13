@@ -77,8 +77,8 @@ const AnimatedButton = ({
 
         tl.to(buttonRef.current, {
           scale: 1,
-          duration: 0.5,
-          ease: "back.out(1.7)",
+          duration: 0.3,
+          ease: "power2.out",
         });
 
         tl.to(
@@ -86,10 +86,10 @@ const AnimatedButton = ({
           {
             scale: 1,
             opacity: 1,
-            duration: 0.5,
-            ease: "power3.out",
+            duration: 0.3,
+            ease: "power2.out",
           },
-          "+0.25"
+          "-=0.1"
         );
 
         tl.to(
@@ -97,10 +97,10 @@ const AnimatedButton = ({
           {
             opacity: 1,
             x: 0,
-            duration: 0.5,
-            ease: "power3.out",
+            duration: 0.3,
+            ease: "power2.out",
           },
-          "-0.25"
+          "-=0.2"
         );
 
         tl.to(
@@ -108,9 +108,9 @@ const AnimatedButton = ({
           {
             y: "0%",
             opacity: 1,
-            duration: 0.8,
-            stagger: 0.1,
-            ease: "power4.out",
+            duration: 0.4,
+            stagger: 0.05,
+            ease: "power2.out",
           },
           "-=0.2"
         );

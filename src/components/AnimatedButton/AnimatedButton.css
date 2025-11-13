@@ -7,12 +7,13 @@
   outline: none;
   border: none;
   font-size: 0.9rem;
-  background: rgba(242, 237, 230, 0.75);
+  background: rgba(245, 247, 249, 0.85);
   backdrop-filter: blur(10px);
   border-radius: 4rem;
   cursor: pointer;
   margin: 1rem 0;
   transform: scale(0);
+  box-shadow: 0 2px 8px rgba(26, 126, 183, 0.1);
 }
 
 .btn .circle {
@@ -21,12 +22,16 @@
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: var(--base-450);
+  background: var(--brand-blue);
   border-radius: 4rem;
   font-size: 1.5rem;
   transform: scale(0);
   overflow: hidden;
-  transition: width 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: width 0.5s cubic-bezier(0.65, 0, 0.076, 1), background 0.3s ease;
+}
+
+.btn:hover .circle {
+  background: var(--brand-blue-light);
 }
 
 .btn .icon {

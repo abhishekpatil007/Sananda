@@ -87,9 +87,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--base-400);
+  border: 1px solid rgba(26, 126, 183, 0.3);
   border-radius: 10rem;
   font-size: 1.25rem;
+  color: var(--brand-blue-light);
+  transition: all 0.3s ease;
+  background-color: rgba(26, 126, 183, 0.05);
+}
+
+.footer .footer-socials-wrapper .icon:hover {
+  border-color: var(--brand-blue);
+  background-color: rgba(26, 126, 183, 0.12);
+  color: var(--brand-green-light);
+  transform: translateY(-3px);
 }
 
 .footer .footer-socials p {

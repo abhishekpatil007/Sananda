@@ -117,8 +117,8 @@ const Nav = () => {
 
       gsap.to(menu, {
         clipPath: "circle(100% at 50% 50%)",
-        ease: "power3.out",
-        duration: 2,
+        ease: "power2.out",
+        duration: 0.8,
         onStart: () => {
           menu.style.pointerEvents = "all";
         },
@@ -126,10 +126,10 @@ const Nav = () => {
           splitTextRefs.current.forEach((split, index) => {
             gsap.to(split.lines, {
               y: "0%",
-              stagger: 0.05,
-              delay: 0.35 + index * 0.1,
-              duration: 1,
-              ease: "power4.out",
+              stagger: 0.03,
+              delay: 0.2 + index * 0.05,
+              duration: 0.5,
+              ease: "power2.out",
             });
           });
         },
@@ -142,9 +142,9 @@ const Nav = () => {
         onStart: () => {
           gsap.to(menu, {
             clipPath: "circle(0% at 50% 50%)",
-            ease: "power3.out",
-            duration: 1,
-            delay: 0.75,
+            ease: "power2.out",
+            duration: 0.6,
+            delay: 0.3,
             onComplete: () => {
               menu.style.pointerEvents = "none";
 
@@ -166,10 +166,10 @@ const Nav = () => {
           split.lines,
           {
             y: "-120%",
-            stagger: 0.03,
-            delay: index * 0.05,
-            duration: 1,
-            ease: "power3.out",
+            stagger: 0.02,
+            delay: index * 0.03,
+            duration: 0.4,
+            ease: "power2.out",
           },
           0
         );

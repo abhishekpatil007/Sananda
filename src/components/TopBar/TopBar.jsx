@@ -35,14 +35,14 @@ const TopBar = () => {
       if (direction === 1 && currentScrollY > 50) {
         gsap.to(topBar, {
           y: -topBarHeight,
-          duration: 1,
-          ease: "power4.out",
+          duration: 0.4,
+          ease: "power2.out",
         });
       } else if (direction === -1) {
         gsap.to(topBar, {
           y: 0,
-          duration: 1,
-          ease: "power4.out",
+          duration: 0.4,
+          ease: "power2.out",
         });
       }
 

@@ -81,9 +81,9 @@ export default function Copy({ children, animateOnScroll = true, delay = 0 }) {
 
         const animationProps = {
           y: "0%",
-          duration: 1,
-          stagger: 0.1,
-          ease: "power4.out",
+          duration: 0.6,
+          stagger: 0.05,
+          ease: "power2.out",
           delay: delay,
         };
 
